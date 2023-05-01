@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "a11ytweaks",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Accessibility Tweaks",
+  "description": "Small tweaks related to flickers and flashes in Minecraft ",
   "authors": [
-    "Me!"
+    "adryd"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/adryd325/mc-a11y-tweaks",
+    "sources": "https://github.com/adryd325/mc-a11y-tweaks"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/a11ytweaks/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
+      "com.adryd.a11ytweaks.A11yTweaksMod"
+    ],
+    "modmenu": [ "com.adryd.a11ytweaks.ModMenuApiImpl" ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "a11ytweaks.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +34,6 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
+    "modmenu": "*"
   }
 }
