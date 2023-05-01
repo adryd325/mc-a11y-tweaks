@@ -1,9 +1,6 @@
-# Fabric Example Mod
+# Minecraft A11y Tweaks
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Features
+ - Disable Artificial Light Flicker: Disables a very subtle flicker effect applied to all artificial light
+ - Disable Night Vision Flashing: Disables flashing near the end of the Night Vision potion effect
+ - Scale Debug Pie: Scales the debug pie with the rest of the client

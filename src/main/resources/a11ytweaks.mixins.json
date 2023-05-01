@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "MixinMinecraftClient"
+    "MixinMinecraftClient",
+    "MixinLightmapTextureManager"
   ],
   "injectors": {
     "defaultRequire": 1
