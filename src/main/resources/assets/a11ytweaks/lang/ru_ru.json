@@ -1,0 +1,8 @@
+{
+  "text.autoconfig.a11ytweaks.title": "Настройки Ari's Accessibility Tweaks",
+  "text.autoconfig.a11ytweaks.option.disableTorchFlicker": "Отключить мерцание факела",
+  "text.autoconfig.a11ytweaks.option.disableNightVisionFlashing": "Отключить вспышки ночного зрения",
+  "text.autoconfig.a11ytweaks.option.scaleDebugPie": "Масштабировать диаграмму рендеринга",
+  "modmenu.summaryTranslation.a11ytweaks": "Небольшие улучшения в области мерцания и вспышек.",
+  "modmenu.descriptionTranslation.a11ytweaks": "Более тонкая настройка мерцания, вспышек и масштабирования."
+}
