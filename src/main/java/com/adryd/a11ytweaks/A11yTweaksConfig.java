@@ -19,7 +19,4 @@ public class A11yTweaksConfig implements ConfigData {
         return this.disableNightVisionFlashing;
     }
 
-    public boolean getScaleDebugPie() {
-        return this.scaleDebugPie;
-    }
 }
